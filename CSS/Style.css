@@ -2,8 +2,6 @@ header {
     margin: auto;
     padding: auto;
     height: 50vh;
-
-
 }
 #PageTitle {
         margin: auto;
@@ -43,20 +41,18 @@ article{
         
     }    
 section {
-    margin: auto;
-    padding: auto;
+    margin: 20px;
+    padding: 20px;
     border-top: 2px solid blue;
     border-bottom: 2px solid blue;
     border-left: 2px solid blue;
     border-right: 2px solid blue;
-    height: 600px;
     background-color: darkgray;
     height: 50vh;
 }    
 footer {
     margin: auto;
     padding: auto;
-    height: ;
     background-color: blueviolet;
     height: 10vh;
     width: 100vw;
