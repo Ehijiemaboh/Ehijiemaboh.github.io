@@ -1,6 +1,7 @@
 header {
     margin: auto;
     padding: auto;
+    height: 400px;
 
 }
 #PageTitle {
@@ -40,8 +41,10 @@ section {
     border-bottom: 2px solid blue;
     border-left: 2px solid blue;
     border-right: 2px solid blue;
+    height: 600px;
 }    
 footer {
     margin: auto;
     padding: auto;
+    height: 300px;
 }
