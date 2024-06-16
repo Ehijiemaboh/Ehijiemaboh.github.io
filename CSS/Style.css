@@ -32,7 +32,8 @@ div.intro {
 article{
         margin: auto;
         padding: auto;
-        width: 100vh
+        width: 100vh;
+        
     }    
 section {
     margin: auto;
@@ -42,9 +43,11 @@ section {
     border-left: 2px solid blue;
     border-right: 2px solid blue;
     height: 600px;
+    background-color: darkgray;
 }    
 footer {
     margin: auto;
     padding: auto;
     height: 300px;
+    background-color: blueviolet;
 }
