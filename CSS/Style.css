@@ -1,7 +1,7 @@
 header {
     margin: auto;
     padding: auto;
-    height: 400px;
+    height: 30vh;
 
 }
 #PageTitle {
@@ -12,27 +12,32 @@ header {
         border-top: 3px solid black;
         border-bottom: 3px solid black;
         width: 100vw;
-        height:300px;
+        height:10vh;
     }
 div.intro {
         margin: auto;
         padding: auto;
-        width: 25%;
+        width: 25vw;
+        height:10vh;
     }
 #About, #SkillsA{
             margin: auto;
             padding: auto;
             border-right: 3px solid black;
+            float:left;
+            
         }
 #SkillsB, #Others {
             margin: auto;
             padding: auto;
             border-left: 3px solid black; 
+            float: left;
         }
 article{
         margin: auto;
         padding: auto;
-        width: 100vh;
+        width: 100vw;
+        height: 10vh;
         
     }    
 section {
@@ -44,10 +49,13 @@ section {
     border-right: 2px solid blue;
     height: 600px;
     background-color: darkgray;
+    height: 50vh;
 }    
 footer {
     margin: auto;
     padding: auto;
-    height: 300px;
+    height: ;
     background-color: blueviolet;
+    height: 10vh;
+    width: 100vw;
 }
