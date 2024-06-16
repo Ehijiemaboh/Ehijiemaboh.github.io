@@ -4,6 +4,7 @@ header {
     height: 50vh;
 }
 #PageTitle {
+        text-align: center;
         margin: auto;
         padding: auto;
         background-color: cornflowerblue;
@@ -12,13 +13,15 @@ header {
         border-bottom: 3px solid black;
         width: 100vw;
         height:10vh;
-        font-size: 50px;
+        font-size: 300px;
     }
 .intro {
         margin: auto;
         padding: auto;
         width: 25vw;
         height: 40vh;
+        float: left;
+        
     }
 #About, #SkillsA{
             margin: auto;
@@ -50,6 +53,12 @@ section {
     background-color: darkgray;
     height: 50vh;
 }    
+.aside {
+    margin: auto;
+    padding: auto;
+    width: 25vw;
+    height: 40vh;
+}
 footer {
     margin: auto;
     padding: auto;
