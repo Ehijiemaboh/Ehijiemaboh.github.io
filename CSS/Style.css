@@ -1,7 +1,7 @@
 header {
     margin: auto;
     padding: auto;
-    height: 30vh;
+    height: 50vh;
 
 
 }
@@ -14,13 +14,13 @@ header {
         border-bottom: 3px solid black;
         width: 100vw;
         height:10vh;
-        font-size: large;
+        font-size: 50px;
     }
 .intro {
         margin: auto;
         padding: auto;
         width: 25vw;
-        height:10vh;
+        height: 40vh;
     }
 #About, #SkillsA{
             margin: auto;
