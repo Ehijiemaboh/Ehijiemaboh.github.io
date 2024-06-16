@@ -3,7 +3,7 @@ header {
     padding: auto;
 
 }
-    #PageTitle {
+#PageTitle {
         margin: auto;
         padding: auto;
         background-color: cornflowerblue;
@@ -12,22 +12,22 @@ header {
         border-bottom: 3px solid black;
         width: 100vw;
     }
-    div.intro {
+div.intro {
         margin: auto;
         padding: auto;
         width: 25%;
     }
-        #About, #SkillsA{
+#About, #SkillsA{
             margin: auto;
             padding: auto;
             border-right: 3px solid black;
         }
-        #SkillsB, #Others {
+#SkillsB, #Others {
             margin: auto;
             padding: auto;
             border-left: 3px solid black; 
         }
-    article{
+article{
         margin: auto;
         padding: auto;
         width: 100vh
