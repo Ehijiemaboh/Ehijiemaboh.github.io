@@ -3,7 +3,7 @@ header {
     padding: auto;
 
 }
-    PageTitle {
+    #PageTitle {
         margin: auto;
         padding: auto;
         background-color: cornflowerblue;
