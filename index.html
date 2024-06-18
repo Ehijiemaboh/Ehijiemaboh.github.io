@@ -1,65 +1,117 @@
 <!DOCTYPE html>
 <html>
         <title> My Portfolio Website</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="CSS/Style.css" rel="Stylesheet" >
     </head>
     <body>
         <header>
             <div id="PageTitle"> 
-                <h1>Victor Isesele</h1>
+                <h1 id="aH1"> Victor Isesele</h1>
             </div>
-            <div>
+            <div id='intro'>
                 <div class="intro" id="About">
-                    <h3> Snippets of My Programming Knowledge</h3>
-                    <p>I have skills in use of Common Programming languages such as Python and HTML,
-                         along with basic use of Javascript. I also have knowledge on us of frameworks such as 
-                        Django and Git for building website Applications. Even application of Database 
-                        management frameworks like SQL. </p>
-                    <h3> My Scientific Knowledge</h3>
-                    <p>
-                        My Degree in Chemical Engineering had introduced me to application of analytics 
-                        in problem solving, together other engineering skills like compiter aoided designs,
-                        calculations, troubleshooting e.t.c 
-                    </p>
-                    <p> Other Skills of Mine</p>
-                    <p>
-                        Additionally, I also posses various basic skills such as soft, hard and vocational skills including Use of Microsoft office, 
-                        Fashion desiging, planning and management. communication skills among others.
-                    </p>
+					<div class="pContainerA">
+						<h3> Snippets of My Programming Knowledge</h3>
+						<p class="aP"id="AP">I have skills in use of Common Programming languages such as Python and HTML,
+							 along with basic use of Javascript. I also have knowledge on us of frameworks such as 
+							Django and Git for building website Applications. Even application of Database 
+							management frameworks like SQL.
+						</p>
+                    </div>
+					<div class="pContainerB">
+						<h3> My Scientific Knowledge</h3>
+						<p class="aP"id="BP">
+							My Degree in Chemical Engineering had introduced me to application of analytics 
+							in problem solving, together other engineering skills like compiter aoided designs,
+							calculations, troubleshooting e.t.c 
+						</p>
+					</div>
+					<div class="pContainerC">
+						<h3> Other Skills of Mine</h3>
+						<p class="aP"id="DP">
+							Additionally, I also posses various basic skills such as soft, hard and vocational skills including Use of Microsoft office, 
+							Fashion desiging, planning and management. communication skills among others.
+						</p>
+					</div>	
                 </div>
-                <div class="intro" id="SkillsA"></div>
-                <div class="intro" id="SkillsB"></div>
-                <div class="intro" id="Others"></div>
             </div>
-            <article></article>
+            <article>
+				<p >
+					This website is an example of Programming projects undertaken by me,
+					especially with use of specifically, <strong> HTML</strong> and 
+					<strong> CSS </strong> with application of <strong> Git frameworks</strong> </br>
+					Other projects that a combination of these above introduced Programming languages has 
+					allowed me to undertake with assistance from online materials and courses include
+					as follows: 
+				</p>
+				<img  src="IMAGES/Birthday.jpg" alt="Programming"
+				class="align-left"
+				/>
+			</article>
         </header>
         <section>
             <aside class="aside" id="Left">
-                <div class="level1" id="AboutW"></div>
-                <div class="level1" id="AboutG"></div>
-                <div class="level1" id="AboutO"></div>
+                <div class="level1" id="AboutW">
+					<div id="MediaA">
+						<video width="90%" height="200vh" 
+							controls autoplay muted loop playsinline>
+							<source src="Video/Wiki_Podcast.mkv" type="video.mkv">
+							Not Playing Properly
+						</video>
+					</div>
+					<div id="MediaAP">
+						<h3> Description of Wikipage Project</h3>
+						<p> This wikipage projects mimic's the conventionnal Wikipage
+						with multiple webpages where a User is able to, among other 
+						functionalities, search for, store, edit, and delete a page 
+						that contains particular information on a topic. </br>
+						
+						</p>
+					</div>
+				</div>
             </aside>
-            <aside class="aside" id="Center"></aside>
             <aside class="aside" id="Right">
-                <div class="level1" id="MediaA">
-                    <video width="320" height="240" controls>
-                        <source src="Video/Wiki_Podcast.mkv" type="video.mkv">
-                    </video>
-                </div>
-                <div class="level1" id="MediaB">
-                    <video width="320" height="240" controls>
-                        <source src="Video/check.mp4" type="video.mp4">
-                    </video>
-                </div>
-                <div class="level1" id="MediaC"></div>
-                <div class="level1" id="MediaD"></div>
-                <div class="level1" id="MediaE"></div>
-                <div class="level1" id="MediaF"></div>
+                <div class="level1" id="AboutG">
+					<div id="MediaB">
+						<video width="90%" height="200vh" controls>
+							<source src="Video/check.mp4" type="video.mp4">
+						</video>
+					</div>
+					<div id="MediaBP">
+							<h3> Discription of Google Searchpage Project</h3>
+							<p> This wikipage projects mimic's the conventionnal Wikipage
+							with multiple webpages where a User is able to, among other 
+							functionalities, search for, store, edit, and delete a page 
+							that contains particular information on a topic. </br>
+							
+							</p>
+					</div>
+				</div>
+            </aside>
+			<aside class="aside" >
+                <div class="level1" id="AboutP">
+					<div id="MediaC">
+						<video width="90%" height="200vh" controls>
+							<source src="Video/check.mp4" type="video.mp4">
+						</video>
+					</div>
+					<div id="MediaCP">
+							<h3> Discription of Python Project</h3>
+							<p> This wikipage projects mimic's the conventionnal Wikipage
+							with multiple webpages where a User is able to, among other 
+							functionalities, search for, store, edit, and delete a page 
+							that contains particular information on a topic. </br>
+							
+							</p>
+					</div>
+				</div>
             </aside>
         </section>
         <footer>
             <div class="level7" id="Contacts">
-                <div id="Phone" > Phone: 08180613864</div>
+				<h2> Contact Info:</h2>
+			    <div id="Phone" > Phone: 08180613864</div>
                 <div id="Email"> Email: Victorisesele@gmail.com</div>
             </div>
         </footer>
