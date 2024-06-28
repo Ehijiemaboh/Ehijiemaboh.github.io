@@ -1,6 +1,8 @@
 let v = document.getElementById("aH1");
 let portC = document.getElementById("PageTitle");
-alert ("WELCOME TO MY PORTFOLIO WEBSITE");
+alert ("WELCOME TO MY PORTFOLIO WEBSITE
+		Preferably Run on a Desktop/Laptop		
+		");
 let Portfolio = ["Victor Isesele",
 			"Programmer",
 			"Chemical Engineer"];
